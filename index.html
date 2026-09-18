@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>二柱子的破吉他 · 个人主页</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ 导航 ============ -->
+  <nav class="nav">
+    <div class="container">
+      <a href="#home" class="logo">二柱子的破吉他</a>
+      <ul class="menu">
+        <li><a href="#home">首页</a></li>
+        <li><a href="#about">关于我</a></li>
+        <li><a href="#skills">技能</a></li>
+        <li><a href="projects.html">代表项目</a></li>
+        <li><a href="#contact">联系</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ============ Home ============ -->
+  <section class="home" id="home">
+    <div class="container">
+      <div class="data">
+        <div class="greet">👋 你好，我是</div>
+        <div class="name">二柱子的破吉他</div>
+        <div class="role">写代码出身，喜欢把想法做成能用的东西。</div>
+        <div class="btns">
+          <a href="#about" class="btn btn-solid">认识一下我</a>
+          <a href="projects.html" class="btn btn-outline">看做过的事</a>
+        </div>
+      </div>
+      <div class="photo-wrap">
+        <div class="blob"></div>
+        <div class="photo"><img src="img/mine.jpg" alt="个人照片" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><span class="photo-ph">📷 照片占位</span></div>
+        <span class="badge badge-1">🎮 打游戏</span>
+        <span class="badge badge-2">🐕 养狗</span>
+        <span class="badge badge-3">🏍️ 骑摩托</span>
+        <span class="badge badge-4">🎣 钓鱼</span>
+        <span class="badge badge-5">✨ 二次元</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 关于我（精简） ============ -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="sec-title">关于我</h2>
+      <div class="about">
+        <p>你好，我是二柱子的破吉他。这些年做过物联网、数据平台、系统落地这些，也带过小团队把项目从 0 做到上线。业余爱鼓捣点小玩意儿，AI 这两年也用得挺顺手。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 技能 ============ -->
+  <section class="section" id="skills">
+    <div class="container">
+      <h2 class="sec-title">我会的东西</h2>
+      <p class="sec-sub"></p>
+
+      <div class="skill-cards">
+        <div class="skill-card glass reveal">
+          <div class="head"><span class="ico">💻</span><h3>后端 / 语言</h3></div>
+          <div class="skill-list"><span>Python</span><span>Java</span><span>FastAPI</span><span>Django</span><span>Spring Boot</span><span>Spring Cloud</span><span>MyBatis</span><span>RESTful</span><span>微服务</span></div>
+        </div>
+        <div class="skill-card glass reveal">
+          <div class="head"><span class="ico">🗄️</span><h3>数据 / 存储</h3></div>
+          <div class="skill-list"><span>MySQL</span><span>PostgreSQL</span><span>Redis</span><span>Oracle</span><span>时序数据库</span><span>SQL 优化</span><span>数据中台</span><span>数据仓库</span><span>数据治理</span><span>ETL</span></div>
+        </div>
+        <div class="skill-card glass reveal">
+          <div class="head"><span class="ico">📡</span><h3>物联网 / 设备接入</h3></div>
+          <div class="skill-list"><span>MQTT</span><span>MODBUS</span><span>CoAP</span><span>LoRaWAN</span><span>4G</span><span>Kafka</span><span>设备接入</span><span>协议适配</span><span>边缘计算</span></div>
+        </div>
+        <div class="skill-card glass reveal">
+          <div class="head"><span class="ico">🗺️</span><h3>地图 / 空间数据</h3></div>
+          <div class="skill-list"><span>北斗定位</span><span>GIS</span><span>高德 / 天地图</span><span>无人机正射影像</span><span>电子围栏</span><span>轨迹检测</span><span>空间分析</span></div>
+        </div>
+        <div class="skill-card glass reveal">
+          <div class="head"><span class="ico">📊</span><h3>大数据 / AI</h3></div>
+          <div class="skill-list"><span>Flink</span><span>Spark MLlib</span><span>风控建模</span><span>数据清洗</span><span>大模型应用</span><span>RAG</span><span>AI 工作流</span></div>
+        </div>
+        <div class="skill-card glass reveal">
+          <div class="head"><span class="ico">⚙️</span><h3>工程化 / 部署</h3></div>
+          <div class="skill-list"><span>Docker</span><span>Linux</span><span>Nginx</span><span>CI/CD</span><span>微服务部署</span><span>监控告警</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 联系 ============ -->
+  <section class="contact" id="contact">
+    <h2 class="sec-title">来找我</h2>
+    <div class="cta">要是你也在搞农业数字化、物联网、数据这些，或者单纯觉得我有点意思，欢迎来聊聊——合作也好、交个朋友也好，我都在。</div>
+    <div class="cards">
+      <div class="card glass"><div class="c-title">💬 微信</div><div class="c-data">Jamarcus-Lee</div><div class="c-note">添加请备注来意</div></div>
+    </div>
+  </section>
+
+  <footer class="footer">© 2026 二柱子的破吉他 · 个人主页</footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
